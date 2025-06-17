@@ -1,0 +1,123 @@
+{
+    "_meta": {
+        "author": "Kullvox",
+        "id": "mcl-veteran"
+    },
+    "abilities": {
+    },
+    "unit": [
+    ],
+    "ncu": [
+    ],
+    "attachment": [],
+    "tactics": [
+    ],
+    "special": [
+        {
+            "id": "vet1",
+            "name": "Veteran 1",
+            "faction": "",
+            "version": "",
+            "role": "special",
+            "category": "mission",
+            "front": {
+                "text": [
+                    "Once per game, when making a Melee Attack, before rolling Attack Dice, the Defender gains a Condition token."
+                ]
+            }
+        },
+        {
+            "id": "vet2",
+            "name": "Veteran 2",
+            "faction": "",
+            "version": "",
+            "role": "special",
+            "category": "mission",
+            "front": {
+                "text": [
+                    "Once per game, at the start of any Round, restore 1 Wound, +1 Wound for each of this unit's destroyed ranks."
+                ]
+            }
+        },
+        {
+            "id": "vet3",
+            "name": "Veteran 3",
+            "faction": "",
+            "version": "",
+            "role": "special",
+            "category": "mission",
+            "front": {
+                "text": [
+                    "Once per game, after rolling Attack Dice, re-roll up to 2 dice (if this card is on a War Machine, re-roll 1 die instead).",
+                    "May not be combined wiht other re-roll effects."
+                ]
+            }
+        },
+        {
+            "id": "vet4",
+            "name": "Veteran 4",
+            "faction": "",
+            "version": "",
+            "role": "special",
+            "category": "mission",
+            "front": {
+                "text": [
+                    "Once per game, when this unit is Attacked, before rolling Defense Dice, this unit gains +1 to Defense Dice rolls and +1 to Panic Test Dice for this Attack."
+                ]
+            }
+        },
+        {
+            "id": "vet5",
+            "name": "Veteran 5",
+            "faction": "",
+            "version": "",
+            "role": "special",
+            "category": "mission",
+            "front": {
+                "text": [
+                    "Once per game, when this unit is performing a Morale Test, after rolling dice, this unit may re-roll any dice for this Test.",
+                    "May not be combined wiht other re-roll effects."
+                ]
+            }
+        },
+        {
+            "id": "vet6",
+            "name": "Veteran 6",
+            "faction": "",
+            "version": "",
+            "role": "special",
+            "category": "mission",
+            "front": {
+                "text": [
+                    "Once per game, at the start of an enemy Turn, this unit performs a 3\" shift."
+                ]
+            }
+        },
+        {
+            "id": "vet7",
+            "name": "Veteran 7",
+            "faction": "",
+            "version": "",
+            "role": "special",
+            "category": "mission",
+            "front": {
+                "text": [
+                    "Once per game, when this unit is Attacked, before rolling Attack Dice, the Attacker suffers -1 to Hit."
+                ]
+            }
+        },
+        {
+            "id": "vet8",
+            "name": "Veteran 8",
+            "faction": "",
+            "version": "",
+            "role": "special",
+            "category": "mission",
+            "front": {
+                "text": [
+                    "Once per game, when this unit is Attacked, the Attacker does not gain Charge, Flank, or Rear Bonuses against it."
+                ]
+            }
+        }
+    ]
+}
