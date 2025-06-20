@@ -1,0 +1,273 @@
+{
+    "_meta": {
+        "author": "BoardmanGaming",
+        "id": "mcl-siege"
+    },
+    "abilities": {
+    },
+    "unit": [
+    ],
+    "ncu": [
+    ],
+    "attachment": [],
+    "tactics": [
+    ],
+    "special": [
+        {
+            "id": "sa1",
+            "name": "Catapult Barrage",
+            "role": "special",
+            "category": "siege-attacker",
+            "front": {
+                "text": [
+                    "*Start of any Turn, Round 2 onward:*",
+                    "Place 2 Order tokens on this Strategy after it is revealed.",
+                    "When a friendly NCU Claims a zone, you may remove 1 Order token from this Strategy to replace that zone's effect with:",
+                    "*Target 1 enemy Infantry or Cavalry unit (you cannot target Solo units). Roll a die. On a 3+ that unit suffers D3 Wounds, +1 Wound for each of its remaining ranks.*"
+                ]
+            }
+        },
+        {
+            "id": "sa2",
+            "name": "The Long War",
+            "role": "special",
+            "category": "siege-attacker",
+            "front": {
+                "text": [
+                    "*Start of any Round, Round 3 onward:*",
+                    "Each time an enemy Combat Unit Activates this Round, it must perform 1 Morale Test. On a failure, it becomes **Panicked**."
+                ]
+            }
+        },
+        {
+            "id": "sa3",
+            "name": "Loot and Plunder",
+            "role": "special",
+            "category": "siege-attacker",
+            "front": {
+                "text": [
+                    "*When an enemy Castle Wall is destroyed:*",
+                    "Score +1 [VICTORY]."
+                ]
+            }
+        },
+        {
+            "id": "sa4",
+            "name": "Poisoned Water",
+            "role": "special",
+            "category": "siege-attacker",
+            "front": {
+                "text": [
+                    "*Start of a friendly Turn, Round 3 onward:*",
+                    "Target 2 enemy Combat Units. They become **Vulnerable**."
+                ]
+            }
+        },
+        {
+            "id": "sa5",
+            "name": "Press the Assault",
+            "role": "special",
+            "category": "siege-attacker",
+            "front": {
+                "text": [
+                    "*Start of a any Turn, Round 3 onward:*",
+                    "Place 2 Order tokens on this Strategy after it is revealed.",
+                    "Each time a friendly unit Charges, after rolling Charge Distance Dice, you may remove 1 Order token from this Strategy. If you do, you may re-roll any Charge Distance Dice."
+                ]
+            }
+        },
+        {
+            "id": "sa6",
+            "name": "Sack the Castle",
+            "role": "special",
+            "category": "siege-attacker",
+            "front": {
+                "text": [
+                    "*When an enemy Castle Wall is destroyed:*",
+                    "Target each friendly unit within Long Range of the destroyed Castle Wall. They restore D3 Wounds, +1 Wound for each of their destroyed ranks."
+                ]
+            }
+        },
+        {
+            "id": "sa7",
+            "name": "Sapper's Tunnel",
+            "role": "special",
+            "category": "siege-attacker",
+            "front": {
+                "text": [
+                    "*Start of a friendly Turn, Round 4 onward:*",
+                    "Target 1 enemy Castle Wall. For each of your friendly Combat Units in Long Range of the Castle Wall, it suffers 1 Wound. After the Castle Wall has suffered those Wounds, each friendly Combat Unit within Long Range of the Castle Wall must perform 1 Panic Test."
+                ]
+            }
+        },
+        {
+            "id": "sa8",
+            "name": "Shatter Stone",
+            "role": "special",
+            "category": "siege-attacker",
+            "front": {
+                "text": [
+                    "*Start of a any Turn, Round 2 onward:*",
+                    "Place 2 Order tokens on this Strategy after it is revealed.",
+                    "When a friendly NCU Claims a zone, you may remove 1 Order token from this Strategy to replace that zone's effect with:",
+                    "*Target 1 enemy Castle Wall. It suffers 1 Wound.*"
+                ]
+            }
+        },
+        {
+            "id": "sa9",
+            "name": "Sow Discord",
+            "role": "special",
+            "category": "siege-attacker",
+            "front": {
+                "text": [
+                    "*Start of an enemy Turn, Round 3 onward:*",
+                    "Target 1 enemy NCU. It loses all Abilities until the end of the Round. When that NCU Claims a zone that Round, target 1 enemy Combat Unit. It becomes **Panicked**."
+                ]
+            }
+        },
+        {
+            "id": "sa10",
+            "name": "Starve them Out",
+            "role": "special",
+            "category": "siege-attacker",
+            "front": {
+                "text": [
+                    "*Start of a friendly Turn, Round 4 onward:*",
+                    "Target 2 enemy Combat Units. They become **Weakened**."
+                ]
+            }
+        },
+        {
+            "id": "sd1",
+            "name": "Battle Fatigue",
+            "role": "special",
+            "category": "siege-defender",
+            "front": {
+                "text": [
+                    "*Start of any Turn, Round 3 onward:*",
+                    "Place 2 Order tokens on this Strategy after it is revealed.",
+                    "After an enemy completes an Attack, you may remove 1 Order token from this Strategy and target the Attacker. They become **Weakened**."
+                ]
+            }
+        },
+        {
+            "id": "sd2",
+            "name": "Combat Chaos",
+            "role": "special",
+            "category": "siege-defender",
+            "front": {
+                "text": [
+                    "*Start of any Turn, Round 3 onward:*",
+                    "Place 3 Order tokens on this Strategy after it is revealed.",
+                    "When an enemy Combat Unit would Activate, you may remove 1 Order token from this Strategy. Your opponent must choose another Combat Unit to Activate *(if able)*."
+                ]
+            }
+        },
+        {
+            "id": "sd3",
+            "name": "Discussing Terms",
+            "role": "special",
+            "category": "siege-defender",
+            "front": {
+                "text": [
+                    "*When a friendly NCU Claims a zone:*",
+                    "Replace that zone's effect with:",
+                    "*Target 1 unengaged enemy Combat Unit. That unit may not Activate this Round.*"
+                ]
+            }
+        },
+        {
+            "id": "sd4",
+            "name": "Murder Hole",
+            "role": "special",
+            "category": "siege-defender",
+            "front": {
+                "text": [
+                    "*Start of a friendly Tunr, Round 4 onward:*",
+                    "Target 1 friendly Castle Wall. Each enemy Combat Unit within Short Range of that Castle Wall suffers D3 Wounds."
+                ]
+            }
+        },
+        {
+            "id": "sd5",
+            "name": "Rain of Arrows",
+            "role": "special",
+            "category": "siege-defender",
+            "front": {
+                "text": [
+                    "*When a friendly NCU Claims a zone:*",
+                    "Replace that zone's effect with:",
+                    "*All non-destroyed Castle Walls may perform 1 Ranged Attack Action.*"
+                ]
+            }
+        },
+        {
+            "id": "sd6",
+            "name": "Rally the Troops",
+            "role": "special",
+            "category": "siege-defender",
+            "front": {
+                "text": [
+                    "*Start of any Turn, Round 3 onward:*",
+                    "Place 2 Order tokens on this Strategy after it is revealed.",
+                    "When a friendly unit passes a Morale Test, you may remove 1 Order token from this Strategy and target that unit. It restores 2 Wounds, +1 Wound for each of its destroyed ranks."
+                ]
+            }
+        },
+        {
+            "id": "sd7",
+            "name": "Rapid Repairs",
+            "role": "special",
+            "category": "siege-defender",
+            "front": {
+                "text": [
+                    "*Start of any Turn, Round 2 onward:*",
+                    "Place 2 Order tokens on this Strategy after it is revealed.",
+                    "When a friendly NCU Claims a zone, you may remove 1 Order token from this Strategy to replace that zone's effect with:",
+                    "*Target 1 friendly Castle Wall. It restores 1 Wound.*"
+                ]
+            }
+        },
+        {
+            "id": "sd8",
+            "name": "Strenghten Fortifications",
+            "role": "special",
+            "category": "siege-defender",
+            "front": {
+                "text": [
+                    "*Start of any Turn, Round 4 onward:*",
+                    "Place 3 Order tokens on this Strategy after it is revealed.",
+                    "When a friendly Castle Wall is Attacked, after Attack Dice are rolled, you may remove 1 Order token from this Strategy to block 1 Hit *(this may be repeated)*."
+                ]
+            }
+        },
+        {
+            "id": "sd9",
+            "name": "Surprise Sortie",
+            "role": "special",
+            "category": "siege-defender",
+            "front": {
+                "text": [
+                    "*Start of any Turn, Round 3 onward:*",
+                    "Place 2 Order tokens on this Strategy after it is revealed.",
+                    "When a friendly unit is Attacked with a Melee Attack, before Attack Dice are rolled, you may remove 1 Order token from this Strategy to have your unit gain **Counterstrike** for this Turn:",
+                    "*For each Miss, the Attacker suffers 1 Hit.*"
+                ]
+            }
+        },
+        {
+            "id": "sd10",
+            "name": "Unexpected Reinforcements",
+            "role": "special",
+            "category": "siege-defender",
+            "front": {
+                "text": [
+                    "*When a friendly NCU Claims a zone:*",
+                    "Replace that zone's effect with:",
+                    "*Redeploy 1 previously Destroyed friendly Combat Unit anywhere in Short Range of a Flank table edge, unactivated.*"
+                ]
+            }
+        }
+    ]
+}

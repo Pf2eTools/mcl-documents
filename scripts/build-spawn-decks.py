@@ -2,7 +2,6 @@ import os
 import subprocess
 import json
 
-
 COMMIT_HASH = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('ascii').strip()
 REPO_ULR = f"https://raw.githubusercontent.com/Pf2eTools/mcl-documents/{COMMIT_HASH}"
 
@@ -29,8 +28,10 @@ def build_deck_from_dir(directory, back_url=None):
         back_img = img.replace(f".{file_type}", f"_b.{file_type}")
         if back_img in files:
             card["back"] = f"{REPO_ULR}/{directory.lstrip('../')}/{back_img}"
-        elif back_url is not None:
+        elif back_url is str:
             card["back"] = back_url
+        elif callable(back_url):
+            card["back"] = back_url(card)
         deck.append(card)
 
     return deck
@@ -59,7 +60,14 @@ def build_decks_lua():
     castle_deck = build_deck_from_dir("../assets/castles")
     LUA += deck_to_lua_str(castle_deck)
 
-    siege_deck = build_deck_from_dir("../assets/siege")
+    def get_siege_back(card):
+        if card["name"].startswith("sa"):
+            return f"{REPO_ULR}/assets/siege/sa_b.png"
+        elif card["name"].startswith("sd"):
+            return f"{REPO_ULR}/assets/siege/sd_b.png"
+        return None
+
+    siege_deck = build_deck_from_dir("../assets/siege", back_url=get_siege_back)
     LUA += deck_to_lua_str(siege_deck)
 
     veteran_deck = build_deck_from_dir("../assets/veteran")

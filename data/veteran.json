@@ -49,7 +49,7 @@
             "front": {
                 "text": [
                     "Once per game, after rolling Attack Dice, re-roll up to 2 dice (if this card is on a War Machine, re-roll 1 die instead).",
-                    "May not be combined wiht other re-roll effects."
+                    "May not be combined with other re-roll effects."
                 ]
             }
         },
@@ -76,7 +76,7 @@
             "front": {
                 "text": [
                     "Once per game, when this unit is performing a Morale Test, after rolling dice, this unit may re-roll any dice for this Test.",
-                    "May not be combined wiht other re-roll effects."
+                    "May not be combined with other re-roll effects."
                 ]
             }
         },
