@@ -1,4 +1,5 @@
 # Milestone Campaign League Documents
+...and other misc assets used for asoiaftts
 
 ## How do I get the decks into tts?
 ### Windows:
