@@ -2,6 +2,7 @@ import os
 import subprocess
 import json
 
+# FIXME:
 COMMIT_HASH = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('ascii').strip()
 REPO_ULR = f"https://raw.githubusercontent.com/Pf2eTools/mcl-documents/{COMMIT_HASH}"
 tactics_back_url = f"{REPO_ULR}/assets/tacticsback.png"
