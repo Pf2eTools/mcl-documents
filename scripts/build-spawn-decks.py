@@ -190,7 +190,7 @@ def main():
         version = version_path.name
         lua_file_2026 = f"2026-{version}.lua"
         index[f"2026-{version}"] = {"name": f"2026 Playtest ({version})", "path": lua_file_2026, "category": "playtest"}
-        build_decks_lua(build_2026(version_path), f"../lua/{lua_file_2026}")
+        build_decks_lua(build_2026(f"{basepath_2026}/{version}"), f"../lua/{lua_file_2026}")
 
     build_index(index)
 
