@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import subprocess
 import json
 
@@ -184,11 +185,12 @@ def main():
     # build_spawn_decks_json("bara-decks", "spawn-bara-decks-button.json")
 
     basepath_2026 = "../assets/2026"
-    for version in os.listdir(basepath_2026):
-        basepath = f"{basepath_2026}/{version}"
+    versions = sorted(Path(basepath_2026).iterdir(), key=os.path.getmtime)
+    for version_path in versions:
+        version = version_path.name
         lua_file_2026 = f"2026-{version}.lua"
         index[f"2026-{version}"] = {"name": f"2026 Playtest ({version})", "path": lua_file_2026, "category": "playtest"}
-        build_decks_lua(build_2026(basepath), f"../lua/{lua_file_2026}")
+        build_decks_lua(build_2026(version_path), f"../lua/{lua_file_2026}")
 
     build_index(index)
 
